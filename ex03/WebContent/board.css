@@ -1,24 +1,28 @@
 @charset "UTF-8";
-
-table {
+h2 {font-family: 굴림체 ;}
+table { width: 480px; }
+table.a {
 			border-collapse:collapse;
-			border:3px;
-			border-color: light-grey;
-			width: 400px;
-			font-size:12px;
+			border:1px #DEEEEF ; 
+			box-shadow: 0px 0px 10px 10px #DEEEEF;
+			font-size:12px 굴림체 bold;
 			background-color:#DEEEEF; 
-			
-			
-			}
+		}
 td { 
-			width:90px;
+			width:50px;
 			padding: 2px;
-			height:23px;
+			height:35px;
+			
 			
 		 }
-.in { text-align:center; }
-.input {
-		width:120px;
-		height:23px;
+.in { text-align:center;
+	  }
+/* .input {
+		width:150px;
+		height:35px;
 		
+} */
+#bt{
+	 border: 1px solid 
+	      
 }
